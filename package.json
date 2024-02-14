@@ -1,0 +1,31 @@
+{
+  "name": "ekebot-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.8.0",
+    "axios": "^0.26.1",
+    "discord-api-types": "^0.30.0",
+    "discord-tts": "^1.2.1",
+    "discord.js": "^14.12.1",
+    "ffmpeg-static": "^4.4.1",
+    "google-translate-tts": "^0.4.0-dev",
+    "libsodium-wrappers": "^0.7.10",
+    "mariadb": "^3.1.0",
+    "moment": "^2.29.4",
+    "node-schedule": "^2.1.1",
+    "openai": "^3.2.1",
+    "twitter-api-v2": "^1.12.0",
+    "twitter-text": "^3.1.0"
+  }
+}
